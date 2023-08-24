@@ -56,7 +56,7 @@ const update = z.object({
         academicDepartmentId: z.string().optional(),
         academicFacultyId: z.string().optional()
     })
-});
+})
 
 export const StudentValidation = {
     create,
